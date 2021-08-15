@@ -1,17 +1,22 @@
-header {
-  background-color: #112854;
-  color: #e3dbb6;
-  text-align: center;
+/* each section uses a div class with the exception of
+   the margin, as specified in the requirements */
+
+.header {
+        background-color: #112854; /* blue */
+        color: #e3dbb6; /* beige-ish */
+        text-align: center;
 }
 
-main {
-  background-color: #a8b2b3;
-  padding: 1em;
+.main {
+      background-color: #a8b2b3; /* light grey */
+      padding: 1em;
+}
 
+.body {
+      background-image: url('record.png');
+      background-repeat: repeat-x; /*repeat image horizontally*/
 }
 
 body {
-  background-image: url('record.png');
-background-repeat: repeat-x;
-margin: 0;
+      margin: 0;
 }
